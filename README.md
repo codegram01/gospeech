@@ -2,7 +2,7 @@
 
 GoSpeech can generate audio for you from CLI param or from file 
 
-[Video when i create goff](https://www.youtube.com/live/UpTZ_D2PUKU?si=XzEP6NNoX6MR0247)
+[Video when i create GoSpeech](https://www.youtube.com/live/UpTZ_D2PUKU?si=XzEP6NNoX6MR0247)
 
 ## Usage
 ```sh
