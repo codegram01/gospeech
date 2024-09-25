@@ -29,7 +29,7 @@ func ReadFileByLine(path string) ([]LineFile, error) {
 		if content != "" {
 			linesFile = append(linesFile, LineFile{
 				Content: content,
-				Name: content[:20],
+				Name: content[:10],
 			})
 		}
     }

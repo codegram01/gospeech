@@ -29,7 +29,8 @@ func GenSpeech(textInp string, outPath string) error {
 			// voice gender ("neutral").
 			Voice: &texttospeechpb.VoiceSelectionParams{
 					LanguageCode: "en-US",
-					SsmlGender:   texttospeechpb.SsmlVoiceGender_NEUTRAL,
+					SsmlGender:   texttospeechpb.SsmlVoiceGender_MALE,
+					Name: "en-US-Wavenet-I",
 			},
 			// Select the type of audio file you want returned.
 			AudioConfig: &texttospeechpb.AudioConfig{
